@@ -1,0 +1,63 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">testimonial</custom-type>
+    <custom-type translate="1">team</custom-type>
+  </custom-types>
+  <admin-texts>
+    <key name="_cs_options">
+      <key name="brand_logo_default"/>
+      <key name="brand_logo_retina"/>
+      <key name="retina_width"/>
+      <key name="brand_logo_top"/>
+      <key name="brand_logo_bottom"/>
+      <key name="brand_logo_wp"/>
+      <key name="brand_fav_icon"/>
+      <key name="iphone_icon"/>
+      <key name="iphone_retina_icon"/>
+      <key name="ipad_icon"/>
+      <key name="ipad_retina_icon"/>
+      <key name="left_link_title"/>
+      <key name="left_link_url"/>
+      <key name="copyright_text"/>
+      <key name="secondary_text"/>
+      <key name="typography">
+        <key name="2"/>
+      </key>
+      <key name="error_heading"/>
+      <key name="error_page_content"/>
+      <key name="error_btn_text"/>
+      <key name="custom_sidebar">
+        <key name="2">
+          <key name="sidebar_name"/>
+          <key name="sidebar_desc"/>
+        </key>
+      </key>
+    </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>vcts_blog</tag>
+      <attribute>
+        <attribute>read_more_text</attribute>
+      </attribute>
+    </shortcode>
+    <shortcode>
+      <tag>vcts_button</tag>
+      <attribute>
+        <attribute>button_text</attribute>
+        <attribute>button_link</attribute>
+      </attribute>
+    </shortcode>
+    <shortcode>
+      <tag>vcts_counter</tag>
+      <attribute>
+        <attribute>cntr_value</attribute>
+        <attribute>cntr_prefix</attribute>
+        <attribute>cntr_suffix</attribute>
+        <attribute>cntr_super</attribute>
+        <attribute>cntr_title</attribute>
+        <attribute>cntr_details</attribute>
+      </attribute>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
